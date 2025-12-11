@@ -16,7 +16,6 @@ Jacques Morand
 December 5th, 2025
 
 # Table of Content
-* TOC
 {:toc}
 
 # 1. Introduction
