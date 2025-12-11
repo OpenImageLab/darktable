@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <img src="./media/image76.png"
 style="width:6.63738in;height:1.58891in" />
 
