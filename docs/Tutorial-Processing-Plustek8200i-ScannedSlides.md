@@ -13,6 +13,8 @@ Jacques Morand
 December 5th, 2025
 
 # Table of Content
+* TOC
+{:toc}
 
 [**Table of Content 1**](#table-of-content)
 
