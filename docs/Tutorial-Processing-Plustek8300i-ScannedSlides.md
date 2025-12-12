@@ -1,7 +1,26 @@
 ---
-title: "Chapter Title: Tutorial Process raw Images with Darktable 5.x"
-layout: default # <-- Use the default layout for automatic TOC generation
-nav_order: 1 # <-- Optional: Sets its position in the left sidebar nav
+# ------------------------------
+# 1. Jekyll & General Page Settings
+# ------------------------------
+layout: default  # <-- Use the default layout for automatic TOC generation
+title: "Tutorial Process raw Images with Darktable 5.x"
+author: "Jacques Morand"
+date: 2025-12-12 10:30:00 -0500 # Sets the publish date and time zone
+last_modified_at: 2025-12-12 17:30:00 -0500 
+permalink: /index.html # Defines the clean, final URL
+
+# ------------------------------
+# 2. SEO and Discovery
+# ------------------------------
+description: "A comprehensive tutorial for beginners to process raw images with Darktable 5.x."
+tags: [configuration, advanced, setup, guide] # Used for filtering or tag pages
+
+# ------------------------------
+# 3. Just the Docs Theme-Specific Settings
+# ------------------------------
+nav_order: 1  # <-- Optional: Sets its position in the left sidebar nav
+parent: "Configuration" # Links this page to a higher-level group in the left sidebar
+has_children: false # Set to true if this page has sub-pages
 ---
 
 <img src="./media/image75.png"
