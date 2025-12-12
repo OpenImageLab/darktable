@@ -19,7 +19,7 @@ tags: [configuration, advanced, setup, guide] # Used for filtering or tag pages
 # 3. Just the Docs Theme-Specific Settings
 # ------------------------------
 nav_order: 1  # <-- Optional: Sets its position in the left sidebar nav
-parent: "Configuration" # Links this page to a higher-level group in the left sidebar
+# parent: "Configuration" # Links this page to a higher-level group in the left sidebar
 has_children: false # Set to true if this page has sub-pages
 ---
 
@@ -52,7 +52,7 @@ December 11th, 2025
 <img src="./media/image19.png"
 style="width:2.79584in;height:3.40104in" />
 
-Darktable is a powerful, free, open-source RAW developer and photo
+Darktablae is a powerful, free, open-source RAW developer and photo
 workflow manager — but for many newcomers it feels more like a toolbox
 full of unfamiliar instruments than a clear, guided image-processing
 workflow-tool.
