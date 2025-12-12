@@ -7,7 +7,7 @@ title: "Tutorial Process raw Images with Darktable 5.x"
 author: "Jacques Morand"
 date: 2025-12-12 10:30:00 -0500 # Sets the publish date and time zone
 last_modified_at: 2025-12-12 17:30:00 -0500 
-permalink: /index.html # Defines the clean, final URL
+# permalink: /index.html # Defines the clean, final URL
 
 # ------------------------------
 # 2. SEO and Discovery
