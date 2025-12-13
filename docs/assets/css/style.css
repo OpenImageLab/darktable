@@ -1,0 +1,11 @@
+/* Simple two-column layout */
+#toc-sidebar {
+    width: 250px;
+    float: left; /* Pushes the TOC to the left */
+    padding: 20px;
+}
+#content {
+    margin-left: 300px; /* Pushes the main content over */
+    padding: 20px;
+}
+/* You also need to link the CSS in your default.html (Step 2) */
