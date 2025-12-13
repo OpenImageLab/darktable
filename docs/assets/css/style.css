@@ -3,6 +3,13 @@
  * Uses Flexbox for two-column layout and sticky TOC scrolling
  */
 
+/* ROOT HEIGHT FIX: CRITICAL for position: sticky and scrolling to work reliably */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* 1. FLEXBOX PARENT: Sets up the two-column structure */
 .page-wrapper {
     display: flex; /* Activate flexbox */
