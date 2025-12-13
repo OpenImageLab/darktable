@@ -5,6 +5,9 @@ description: A comprehensive tutorial for processing raw images with Darktable 5
 # This tells Jekyll to use the default Kramdown processor
 markdown: kramdown 
 
+# CRITICAL: This MUST match your repository name
+baseurl: "/Darktable"
+
 # --- Theme-Specific Settings (DELETE THESE IF PRESENT) ---
 # REMOVE: remote_theme: "mmistakes/minimal-mistakes"
 # REMOVE: baseurl: "/Darktable"
