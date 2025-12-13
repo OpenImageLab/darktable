@@ -1,19 +1,12 @@
-remote_theme: "mmistakes/minimal-mistakes"
+# --- Site Identity and Configuration (KEEP THESE) ---
+title: Process raw Images with Darktable 5.x
+description: A comprehensive tutorial for processing raw images with Darktable 5.x.
 
-# --- URL Configuration (CRITICAL) ---
-# url: "https://username.github.io"
-url: "https://openimagelab.github.io" 
+# This tells Jekyll to use the default Kramdown processor
+markdown: kramdown 
 
-# baseurl: "/repo-name"
-baseurl: "/Darktable" 
-
-# --- Defaults ---
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      toc: true
-      toc_sticky: true
-      toc_label: "Contents"
+# --- Theme-Specific Settings (DELETE THESE IF PRESENT) ---
+# REMOVE: remote_theme: "mmistakes/minimal-mistakes"
+# REMOVE: baseurl: "/Darktable"
+# REMOVE: url: "https://openimagelab.github.io"
+# REMOVE: Any 'defaults' or 'kramdown' blocks related to specific themes.
