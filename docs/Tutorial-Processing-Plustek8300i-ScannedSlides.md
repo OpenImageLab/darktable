@@ -1,14 +1,7 @@
 ---
-# 1. Page Info
-title: "Process Raw Images with Darktable 5.x"
-date: 2025-12-12 10:30:00 -0500
-permalink: /index.html
-
-# 2. Layout Overrides (Optional, since we set defaults in config)
-# layout: single  <-- Already set in config, but safe to keep
-# toc: true       <-- Already set in config
+layout: default  # <-- Tells Jekyll to use the file you created in Step 2
+title: "Processing raw Images with Darktable 5.x" # <-- Sets the title for the browser tab
 ---
-
 
 <img src="./media/image75.png"
 style="width:6.26772in;height:1.44444in" />
