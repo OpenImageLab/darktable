@@ -22,8 +22,6 @@ December 11th, 2025
 
 **© 2025 Jacques Morand. All rights reserved**
 
-# Table of Content
-
 # 1. Introduction
 
 ## 1.1 A Note for the Beginners
