@@ -789,62 +789,51 @@ In the group “**Format options**”,
 
 <table>
 <colgroup>
-<col style="width: 21%" />
-<col style="width: 16%" />
-<col style="width: 61%" />
+<col style="width: 21%;" />
+<col style="width: 16%;" />
+<col style="width: 61%;" />
 </colgroup>
 <thead>
-<tr class="header">
-<th><strong>Parameter</strong></th>
-<th><strong>Value</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-<tr class="odd">
-<th>File format</th>
-<th>JPEG (8-bits)</th>
-<th></th>
-</tr>
-<tr class="header">
-<th>Quality</th>
-<th>95</th>
-<th><p>JPEG compression level, 0-100. Higher values mean less
-compression and better quality, but larger file sizes.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em>95 for high quality (archiving, printing);</em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em>90 for a good balance (web, uploads).</em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em>80 is a good starting point to see a balance between file size
-and quality.</em></p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th>Chroma subsampling</th>
-<th>4:2:0</th>
-<th><p>Chroma subsampling in Darktable JPEG exports reduces file size by
-lowering the color detail, which is often unnoticeable for most photos
-but can save space.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em>The most common, highly compressed ratio is 4:2:0 (which
-significantly reduces file size).</em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em>The most common ratio for no subsampling is 4:4:4 (no
-subsampling)</em></p>
-</blockquote></li>
-</ul></th>
-</tr>
+  <tr class="header">
+    <th style="text-align: left;"><strong>Parameter</strong></th>
+    <th style="text-align: left;"><strong>Value</strong></th>
+    <th style="text-align: left;"><strong>Description</strong></th>
+  </tr>
 </thead>
 <tbody>
+  <tr class="odd">
+    <td style="text-align: left; vertical-align: top;">File format</td>
+    <td style="text-align: left; vertical-align: top;">JPEG (8-bit)</td>
+    <td style="text-align: left; vertical-align: top;"><em>(Primary format for general use and web compatibility)</em></td>
+  </tr>
+  <tr class="even">
+    <td style="text-align: left; vertical-align: top;">Quality</td>
+    <td style="text-align: left; vertical-align: top;">95</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>JPEG compression level, 0-100. Higher values mean less compression and better quality, but larger file sizes.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>95 for high quality (archiving, printing);</em></li>
+        <li><em>90 for a good balance (web, uploads).</em></li>
+        <li><em>80 for maximum file size savings with acceptable quality.</em></li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="odd">
+    <td style="text-align: left; vertical-align: top;">Chroma subsampling</td>
+    <td style="text-align: left; vertical-align: top;">4:2:0</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>Reduces file size by lowering color detail. This is often unnoticeable for standard photography.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>4:2:0: Highly compressed ratio (significant file size reduction).</em></li>
+        <li><em>4:4:4: No subsampling (maximum color fidelity).</em></li>
+      </ul>
+    </td>
+  </tr>
 </tbody>
 </table>
+
 
 <img src="./media/image48.png"
 style="width:4.69792in;height:1.07292in" />
