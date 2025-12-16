@@ -844,95 +844,80 @@ In the group “**Global options**”,
 
 <table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 18%" />
-<col style="width: 64%" />
+<col style="width: 16%;" />
+<col style="width: 18%;" />
+<col style="width: 64%;" />
 </colgroup>
 <thead>
-<tr class="header">
-<th><strong>Parameter</strong></th>
-<th><strong>Value</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-<tr class="odd">
-<th>Set size</th>
-<th>In pixels (for file): 0 x 0 px</th>
-<th><p>Maximum dimensions in pixels, inches, or cm. Setting a dimension
-to zero leaves it unconstrained.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em><mark>Set to zero to export at original dimensions (after
-cropping).</mark></em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em><mark>Use to downscale for specific uses like social
-media.</mark></em></p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th>Allow upscaling</th>
-<th>No</th>
-<th><p>Option to allow the image to be exported at a larger size than
-the original.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em>Disable (No).</em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em>Enable (Yes) only if you need to export at a higher resolution
-than the source file to mitigate pixelation.</em></p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th>High quality resampling</th>
-<th>No</th>
-<th><p>Algorithm used to create the new image. "High quality resampling"
-takes longer but improves quality.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em>Disable (No)</em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em>Enable (Yes) only for better results for TIFF Format</em></p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="header">
-<th>Profile</th>
-<th>Image settings</th>
-<th><p>The color space for the exported image. sRGB is standard for web
-and most home printing.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em>Image settings.</em></p>
-</blockquote></li>
-<li><blockquote>
-<p><em>Use sRGB only for online use. Consider other profiles for
-specific printers or workflows if needed.</em></p>
-</blockquote></li>
-</ul></th>
-</tr>
-<tr class="odd">
-<th>Style</th>
-<th>None</th>
-<th><p>Add an additional style for the exporting of the image.</p>
-<p><em>Recommandations:</em></p>
-<ul>
-<li><blockquote>
-<p><em>Do not add additional style for exporting (None)</em></p>
-</blockquote></li>
-</ul></th>
-</tr>
+  <tr class="header">
+    <th style="text-align: left;"><strong>Parameter</strong></th>
+    <th style="text-align: left;"><strong>Value</strong></th>
+    <th style="text-align: left;"><strong>Description</strong></th>
+  </tr>
 </thead>
 <tbody>
+  <tr class="odd">
+    <td style="text-align: left; vertical-align: top;">Set size</td>
+    <td style="text-align: left; vertical-align: top;">0 x 0 px</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>Maximum dimensions in pixels, inches, or cm. Setting a dimension to zero leaves it unconstrained.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>Set to zero to export at original dimensions (after cropping).</em></li>
+        <li><em>Use to downscale for specific uses like social media.</em></li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="even">
+    <td style="text-align: left; vertical-align: top;">Allow upscaling</td>
+    <td style="text-align: left; vertical-align: top;">No</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>Option to allow the image to be exported at a larger size than the original.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>Disable (No).</em></li>
+        <li><em>Enable (Yes) only if you need to export at a higher resolution than the source file.</em></li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="odd">
+    <td style="text-align: left; vertical-align: top;">High quality resampling</td>
+    <td style="text-align: left; vertical-align: top;">No</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>Algorithm used for resizing. "High quality resampling" improves results but increases processing time.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>Disable (No) for standard JPEG exports.</em></li>
+        <li><em>Enable (Yes) for high-fidelity TIFF or printing workflows.</em></li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="even">
+    <td style="text-align: left; vertical-align: top;">Profile</td>
+    <td style="text-align: left; vertical-align: top;">Image settings</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>The color space for the exported image. sRGB is standard for web and home use.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>Image settings: Inherits the color profile defined in the Darkroom.</em></li>
+        <li><em>Explicitly choose sRGB for images destined for the web.</em></li>
+      </ul>
+    </td>
+  </tr>
+  <tr class="odd">
+    <td style="text-align: left; vertical-align: top;">Style</td>
+    <td style="text-align: left; vertical-align: top;">None</td>
+    <td style="text-align: left; vertical-align: top;">
+      <p>Applies a Darktable style during the export process itself.</p>
+      <p><em>Recommendations:</em></p>
+      <ul>
+        <li><em>None: Since you have already processed your scan using the Plustek style, adding another style here is usually unnecessary.</em></li>
+      </ul>
+    </td>
+  </tr>
 </tbody>
 </table>
+
 
 <img src="./media/image66.png"
 style="width:5.38763in;height:2.26563in" />
