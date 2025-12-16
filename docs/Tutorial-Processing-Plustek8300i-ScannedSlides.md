@@ -418,9 +418,9 @@ Darktable.
 
 <table>
 <colgroup>
-<col style="width: 17%" />
-<col style="width: 23%" />
-<col style="width: 59%" />
+<col style="width: 17%; text-align: left;" />
+<col style="width: 23%; text-align: left;" />
+<col style="width: 59%; text-align: left;" />
 </colgroup>
 <thead>
 <tr class="header">
