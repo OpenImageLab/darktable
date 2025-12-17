@@ -412,7 +412,7 @@ style="width:4.45201in;height:6.39063in" />
 
 <img src="./media/image34.png" style="width:6.5in;height:2.18056in" />
 
-**3.4 Useful darktable Keyboard Shortcuts**
+## 3.4 Useful darktable Keyboard Shortcuts
 
 These shortcuts are very useful and can be used in any workspace of
 Darktable.
