@@ -20,7 +20,7 @@ Darktable is incredibly powerful, but its learning curve can be steep. This proj
 
 If you follow the guided pipeline here, you’ll gain two things: predictable, high-quality results for most images, and a clearer mental model of how Darktable’s modules interact.
 
-## 📂 Resources
+## 📂 Toolset
 
 ### 1. The Tutorial
 **Title:** *Tutorial: Processing Raw Images with Darktable 5.x*
