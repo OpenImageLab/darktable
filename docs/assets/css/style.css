@@ -130,3 +130,14 @@ html, body {
         white-space: normal;
     }
 }
+
+/* Remove the "push down" effect from paragraphs in tables */
+.main-content table td p {
+    margin-top: 0;
+    margin-bottom: 10px; /* Keep space BETWEEN paragraphs, but not at the top */
+}
+
+/* Ensure the very last paragraph in a cell doesn't add extra bottom padding */
+.main-content table td p:last-child {
+    margin-bottom: 0;
+}
